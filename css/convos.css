@@ -1,0 +1,51 @@
+/* CONVOS styles 
+   The styles in this sheet are specifically for the convos functionality of ChitChat.
+   (c) 2017. ChitChat. All Rights Reserved. A Louis Ronald Production.
+*/
+
+
+/* styles for list boxes */ 
+#SelectUserListBox {
+width: 300px;
+height: 350px;
+overflow: auto; 
+}
+
+#SelectUserListBox::-webkit-scrollbar {
+	width: 5px;
+}
+
+#ConvoAreaBox {
+	height: 400px;
+	width: 800px;
+	overflow: scroll; 
+}
+
+/* styles for text fields */ 
+#MsgEntryTextField {
+	height: 40px; 
+	width: 500px; 
+}
+
+/* styles for buttons */ 
+#SendMsgButton {
+	height: 40px; 
+	width: 100px;
+	background-color: #FF0000;
+	color: #FFFFFF;
+	border:#990000 thin solid;
+}
+
+/* styles for data item divs */ 
+.UserItem {
+	width: 250px;
+	height: 100px;
+	background-color: #F2F2F2;
+}
+
+.SentMessage {
+}
+
+.ReceivedMessage {
+}
+

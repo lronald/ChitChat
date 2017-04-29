@@ -1,0 +1,14 @@
+/* DIV styles 
+   The styles in this sheet are specifically for the divs which have dynamic contents, and are visible
+   in virtually all pages of ChitChat. 
+   (c) 2017. ChitChat. All Rights Reserved. A Louis Ronald Production.
+*/
+
+
+#UserGreetingField {
+	color: #999999;
+	font-size: 20px;
+	font-family: Tahoma;
+	text-align: center; 
+}
+

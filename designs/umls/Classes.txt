@@ -1,0 +1,12 @@
+ChitChat Classes (c) 2017. 
+==========================
+User Frontend
+
+User 		(USERID, USERNAME, PASSWORD)
+Group 		(GROUPID, NAME, ADMIN)
+GroupMembers 	(GROUPID, USERID)
+Messages 	(SENDERUSERID, RECEIVERUSERID, MESSAGE, TIMESTAMP) handles convo between two people. 
+GroupMessages 	(GROUPID, SENDERUSERID, MESSAGE, TIMESTAMP) handles convo that involves multiple people.
+
+==========================
+Admin Backend

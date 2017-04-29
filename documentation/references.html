@@ -1,0 +1,212 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Installation :: ChitChatDocs</title>
+<link href="css/master.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+<!--
+.style1 {color: #FFFFFF}
+body {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.style2 {color: #009933}
+-->
+</style>
+</head>
+
+<body>
+<table width="100%" border="0" cellspacing="0" cellpadding="2">
+  <tr>
+    <td height="100">&nbsp;</td>
+    <td height="87" colspan="2"><p align="left"><img src="res/img/logo-small.png" alt="ChitChat" width="185" height="56" /></p>
+    <p align="left">&copy; 2017. ChitChat. A Louis Ronald Production. All Rights Reserved. </p></td>
+  </tr>
+  <tr>
+    <td height="67"><h1 align="left">&nbsp;</h1></td>
+    <td><h1>References</h1></td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="34" align="center" valign="middle" bgcolor="#009933"><p align="left" class="style1">&nbsp;</p></td>
+    <td height="34" align="center" valign="middle" bgcolor="#009933"><div align="left">
+      <p class="style1"><a href="index.html">Back to index</a></p>
+    </div></td>
+    <td height="34" align="center" valign="middle" bgcolor="#009933">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="231" height="34" align="center" valign="middle">&nbsp;</td>
+    <td width="563" height="34" colspan="-1" align="left" valign="baseline"><p align="justify">Find all references to sources for PHP and JavaScript.</p>
+      <h2 align="justify">PHP Classes </h2>
+      <h3 align="justify">Class Summary</h3>
+      <table width="100%" border="1" cellpadding="5" cellspacing="0" bordercolor="#CCCCCC">
+        <tr>
+          <td width="28%"><p align="center"><strong>Classes</strong></p></td>
+          <td width="72%"><p align="center"><strong>Description</strong></p></td>
+        </tr>
+        <tr>
+          <td><p align="left">DbReferences</p></td>
+          <td><p align="left">Contains database schema constants such as database name, username, password, table names, and more. </p></td>
+        </tr>
+        <tr>
+          <td><p align="left">User</p></td>
+          <td><p align="left">Represents a single user.</p></td>
+        </tr>
+        <tr>
+          <td><p align="left">Group</p></td>
+          <td><p align="left">Represents a single group. That is, a group of users. </p></td>
+        </tr>
+        <tr>
+          <td><p align="left">Message</p></td>
+          <td><p align="left">Represents a single message sent between two people. </p></td>
+        </tr>
+        <tr>
+          <td><p align="left">GroupMessage</p></td>
+          <td><p align="left">Represents a single message sent to a group. That is, more than two people. </p></td>
+        </tr>
+        <tr>
+          <td><p align="left">UserManager</p></td>
+          <td><p>Provides functionality to manipulate users (create, delete, and more). </p></td>
+        </tr>
+        <tr>
+          <td><p align="left">GroupManager</p></td>
+          <td><p align="left">Provides functionality to manipulate groups (create, delete, and more). </p></td>
+        </tr>
+        <tr>
+          <td><p align="left">MessageManager</p></td>
+          <td><p align="left">Provides functionality to manipulate messages (create, delete, and more). </p></td>
+        </tr>
+        <tr>
+          <td><p align="left">GroupMessageManager</p></td>
+          <td><p align="left">Provides functionality to manipulate group messages (create, delete, and more). </p></td>
+        </tr>
+        <tr>
+          <td><p align="left">GroupMemberManager</p></td>
+          <td><p align="left">Provides functionality to manipulate group members (create, delete, and more). </p></td>
+        </tr>
+        <tr>
+          <td><p align="left">MySqlDbAdapter</p></td>
+          <td><p align="left">Provides functionality to manipulate MySQL database. It provides a high-level of abstraction, simplifying its use. </p></td>
+        </tr>
+      </table>
+      <p align="justify">&nbsp;</p>
+    <h3 align="justify">&nbsp;</h3></td>
+    <td width="258" height="34" colspan="-1" align="center" valign="middle">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="34" align="center" valign="middle">&nbsp;</td>
+    <td height="34" colspan="-1" align="center" valign="middle"><h2 align="justify">Class Definitions </h2>
+      <p align="justify">Find class definitions &amp; summary below in the next few subsections.</p>
+      <h3 align="justify">DbReferences</h3>
+      <h3 align="justify">User</h3>
+      <blockquote>
+        <p align="justify"> function __construct($userid, $usr, $pwd)<br />
+          function getUserId() <br />
+          function getUsername() <br />
+          function getPassword()</p>
+      </blockquote>
+      <h3 align="justify">Group</h3>
+      <blockquote>
+        <p align="justify"> function __construct($groupid, $name, $admin)<br />
+          function getGroupId()<br />
+          function getGroupName()<br />
+          function getAdmin() </p>
+      </blockquote>
+      <p align="justify">&nbsp;</p>
+      <h3 align="justify">Message</h3>
+      <blockquote>
+        <p align="justify"> function getMessageId()<br />
+          function getSender()<br />
+          function getRecipient()<br />
+          function getMessage()<br />
+          function getTimeStamp()</p>
+      </blockquote>
+      <h3 align="justify">GroupMessage</h3>
+      <blockquote>
+        <p align="justify"> function getGroupMessageId()<br />
+          function getSender()<br />
+          function getGroup() <br />
+          function getMessage()<br />
+          function getTimeStamp()</p>
+      </blockquote>      <h3 align="justify">UserManager</h3>
+      <blockquote>
+        <p align="justify"> function __construct($dbreferencesObj)<br />
+          function deleteUser($usrObj) <br />
+          function updateUsername($usrObj, $usernameStr) <br />
+          function updatePassword($usrObj, $passwordStr)<br />
+          function searchUserById($uidInt)<br />
+          function createUser($usrStr, $pwdStr)<br />
+          function getAllUsers() </p>
+      </blockquote>
+      <h3 align="justify">GroupManager</h3>
+      <blockquote>
+        <p align="justify"> function __construct($dbRefObj) <br />
+          function createGroup($grpName, $admin) <br />
+          function deleteGroup($grpObj)<br />
+          function updateGroupName($grpObj, $name)<br />
+          function searchGroupById($gid) <br />
+          function searchGroupByName($name)<br />
+          function searchGroupByAdmin($usrObj)</p>
+      </blockquote>
+      <h3 align="justify">MessageManager</h3>
+      <blockquote>
+        <p align="justify"> function __construct($dbRefObj) <br />
+          function createMessage($senderObj, $recipientObj, $msg)<br />
+          function deleteMessage($msgObj) <br />
+          function searchMessageById($msgId)<br />
+          function searchMessagesBySender($senderObj)<br />
+          function searchMessagesByRecipient($recipientObj)<br />
+          function searchMessageByTimestamp($timeStamp)</p>
+      </blockquote>
+      <h3 align="justify">GroupMessageManager</h3>
+      <blockquote>
+        <p align="justify"> function __construct($dbReferenceObj) <br />
+          function createGroupMessage($grpObj, $senderObj, $msg)<br />
+          function deleteGroupMessage($grpMsgObj)<br />
+          function searchGroupMessageById($grpMsgId)<br />
+          function searchGroupMessagesBySender($senderObj)<br />
+          function searchGroupMessagesByTimestamp($timeStamp)</p>
+      </blockquote>
+      <h3 align="justify">GroupMemberManager</h3>
+      <blockquote>
+        <p align="justify"> function __construct($dbRefObj) <br />
+          function addMember($grpObj, $newMemberObj) <br />
+          function deleteMember($memberObj, $grpObj)<br />
+          function searchMembersByGroup($grpObj)</p>
+      </blockquote>
+      <h3 align="justify">MySqlDbAdapter</h3>
+      <blockquote>
+        <p align="left">function MySqliDbAdapter($dbHost,$dbName,$dbUsername,$dbPassword) function query($querySqlStr)<br />
+          function insert($insertSqlStr)<br />
+          function update($updateSqlStr)<br />
+          function remove($deleteSqlStr)      </p>
+      </blockquote>
+      <p align="justify">&nbsp;</p>
+      <p align="justify">&nbsp;</p></td>
+    <td height="34" colspan="-1" align="center" valign="middle">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="34" align="center" valign="middle">&nbsp;</td>
+    <td height="34" colspan="-1" align="center" valign="middle">
+      <h2 align="justify">Web Server </h2>      
+      <p align="justify">Apache Server is used. ChitChat will operate safely on <strong>Apache Web Server version 2.4.9 or later.</strong></p></td><td height="34" colspan="-1" align="center" valign="middle">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="34" align="center" valign="middle">&nbsp;</td>
+    <td height="34" colspan="-1" align="left" valign="middle">
+      <h2 align="justify">Installing ChitChat </h2>
+      <ol>
+        <li>
+          <p>After download, extract the ChitChat ZIP folder to any location in your computer. </p>
+        </li>
+        <li>
+          <p>After extraction, copy and paste. ................ </p>
+        </li>
+      </ol>      
+      <blockquote>&nbsp;</blockquote></td>
+    <td height="34" colspan="-1" align="center" valign="middle">&nbsp;</td>
+  </tr>
+</table>
+</body>
+</html>
